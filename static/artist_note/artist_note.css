@@ -1,0 +1,58 @@
+
+
+#write {
+width:45%;
+margin: 30px auto;
+font-family: "Helvetica Neue",Helvetica,sans-serif;
+font-weight: normal;
+line-height: 1.67em;
+font-family: "proxima-nova";
+font-size: 15px;
+line-height: 1.6em;
+font-weight: 400;
+font-style: normal;
+color: #454545;
+}
+
+#title {
+float:left;
+font-size:30px;
+margin-bottom:50px;
+}
+
+#write h2 {
+font-size:30px;
+}
+
+#write p {
+clear:both;
+}
+
+#imm {
+width:20px;
+padding:3px;
+}
+
+#foot {
+text-align:center;
+}
+
+a {
+text-decoration:none;
+}
+
+#sisname {
+font-size:40px;
+text-align:center;
+margin-top:100px;
+}
+
+#sispic {
+text-align:center;
+}
+
+
+#header #menu .menu-item.ARTIST-NOTE a {
+color:black;
+border-bottom:1px solid black;
+}

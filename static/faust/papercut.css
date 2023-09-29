@@ -1,0 +1,114 @@
+body {
+margin:0;
+padding:0;
+margin-top:100px;
+}
+
+body {
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+a {
+text-decoration:none;
+}
+
+#content {
+width:100%;
+margin-right:0px;
+}
+
+#content .content-item {
+position:relative;
+width:33.3%;
+float:left;
+margin-bottom:-7px;
+}
+
+#content .content-item .text {
+position:absolute;
+top:50%;
+left:50%;
+font-size:30px;
+transform: translate( -50%, -50% );
+opacity:0%;
+transition-duration:0.3s;
+}
+
+#content .content-item .image {
+transition-duration:0.3s;
+}
+
+#content .content-item:hover .image{
+filter:brightness(50%);
+transition-duration:0.3s;
+}
+
+#content .content-item .image:hover ~ .text {
+opacity:100%;
+transition-duration:0.3s;
+}
+
+#content .content-item .text:hover {
+opacity:100%;
+transition-duration:0.3s;
+}
+
+h2, h3 {
+line-height:1.8em;
+text-align:center;
+margin:0;
+padding:0;
+}
+
+#content .content-item .text a {
+color:white;
+}
+
+
+#header #menu .menu-item.PAPERCUTS a {
+color:black;
+border-bottom:1px solid black;
+}
+
+
+/* 작은 화면 전용 */
+
+@media(max-width:640px) {
+
+}

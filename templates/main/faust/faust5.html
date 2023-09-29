@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <title>Yoonha Byun ― Faust 5</title>
+{% endblock %}
+
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'faust/faustcss.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'faust/papercut.css' %}">
+<div id="exp-wrap">
+    <div id="explanation">
+        <p style="font-size:40px; margin-bottom:3px;">Faust 5</p>
+        <p> 16 * 16 inch</p>
+        <p>©Yoonha Byun 2017</p>
+    </div>
+
+    <div id="faust">
+        <img src="{%static 'faust/faust5.jpg' %}" width="84%">
+    </div>
+
+    <div id="left-right-button">
+        <div id="left">
+            <a href="{% url 'main:faust4' %}">&lt;</a>
+        </div>
+        <div id="right">
+            <a href="{% url 'main:faust6' %}">&gt;</a>
+        </div>
+    </div>
+
+
+</div>
+
+<div id="content">
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust1' %}"><img src="{% static 'faust/faust1.jpg' %}" width="100%"  alt="faust1"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust1' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 1</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust2' %}"><img src="{% static 'faust/faust2.jpg' %}" width="100%"  alt="faust2"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust2' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 2</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust3' %}"><img src="{% static 'faust/faust3.jpg' %}" width="100%"  alt="faust3"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust3' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 3</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust4' %}"><img src="{% static 'faust/faust4.jpg' %}" width="100%"  alt="faust4"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust4' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 4</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust5' %}"><img src="{% static 'faust/faust5.jpg' %}" width="100%"  alt="faust5"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust5' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 5</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust6' %}"><img src="{% static 'faust/faust6.jpg' %}" width="100%"  alt="faust6"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust6' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 6</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust7' %}"><img src="{% static 'faust/faust7.jpg' %}" width="100%"  alt="faust7"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust7' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 7</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust8' %}"><img src="{% static 'faust/faust8.jpg' %}" width="100%"  alt="faust8"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust8' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 8</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+  <div class="content-item">
+      <div class="image">
+        <a href="{% url 'main:faust9' %}"><img src="{% static 'faust/faust9.jpg' %}" width="100%"  alt="faust9"></a>
+      </div>
+      <div class="text">
+          <a href="{% url 'main:faust9' %}">
+              <h2 style="font-size:44px;font-weight:300;">Faust 9</h2>
+              <h3 style="font-size:16px;font-weight:300;">&mdash; view &mdash;</h3>
+          </a>
+      </div>
+  </div>
+</div>
+{% endblock %}
