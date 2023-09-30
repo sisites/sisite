@@ -20,3 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('main/',include('main.urls')),
 ]
+
+handlr404 = 'main.views.page_not_found'
